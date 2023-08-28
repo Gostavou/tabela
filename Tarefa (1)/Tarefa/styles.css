@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 183,1, 255);
+    background-image: url('alimentos-de-mercado.jpg');
+    background-size: auto 100%; 
+    background-repeat: no-repeat;
+    background-position: right top; 
+}
+
+.content-header{
+    background-color: gray;
+    height: 73px;
+    text-align:center;
+    display: flex;
+}
+
+tr,th{
+    border: none;
+    text-align: left;
+}
+
+h1{
+    text-align: center;
+    margin:auto;
+    font-family: sans-serif;
+
+}
+
+
+.content-main{
+    text-align: center;
+    max-width: 800px;
+    margin:auto;
+    border-radius:55px;
+    box-shadow:0 0 5px #122;
+    background-color: rgba(143, 134, 51, 0.55);
+    height:745px;
+    max-height: auto;
+}
+
+
+h2{
+    text-align: center;
+    font-family: cursive;
+}
+
+
+table{
+    margin:auto; 
+    background-color: rgb(255, 255, 255);
+    padding:10px; 
+    box-shadow:0 0 5px rgb(26, 26, 53) ;
+    height:630px;
+    max-height: auto;
+}
+
+
+.content-footer{
+    margin:auto;
+    text-align: center;
+    padding: 18.6px;
+    background-color: black;
+    font-family: monospace;
+}
+
+
